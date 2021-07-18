@@ -18,7 +18,7 @@ git commit -m "代码提交信息"
 
 git push <远程仓库名（默认origin）> <分支（GitHub默认main，Git默认master，注意切换）>
 
-git status(参数为-s  表示简短输出)  
+git status(参数为-s  表示简短输出)   查看文件修改
 
 git diff <文件> （不加参数默认比较工作区和暂存区 加--cached比较暂存区与最新本地版本库 加HEAD比较工作区与最新本地版本库 也可以加commit-id比较与指定commit差异）
 
@@ -40,4 +40,8 @@ git branch -d <分支名> （删除分支）
 git switch <分支名> (切换分支)
 
 git switch -c <分支名> （创建一个新分支并切换到该新分支）
+
+git fetch  <远程仓库 如：origin> 获取更新代码
+
+git stash 将当前工作目录中的修改存储，可随时应用
 

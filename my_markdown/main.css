@@ -1,0 +1,15 @@
+#origin{
+    width: 750px;
+    resize: none;
+    outline: none;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    border-radius: 0px;
+}
+#view{
+    height: 800px;
+    width: 750px;
+    border: solid 1px;
+    border-left: none;
+    /* margin-left: 2px; */
+}
